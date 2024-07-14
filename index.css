@@ -1,0 +1,596 @@
+body{
+    height: 100vh;
+    font-family: "Cairo", sans-serif;
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+
+}
+
+/* Inicio da barra */
+
+#Barra{ 
+height: 8vh;
+position: relative;
+background-color: #f5f5f5;
+}
+
+#email{
+    font-size: 14px;
+
+position: absolute;
+left: 160px;
+}
+
+#email-traco{
+    font-size: 15px;
+    list-style: none;
+    margin-right: 25px;
+    margin-left: 22px;
+}
+
+#email-ul{
+    display: flex;
+
+
+}
+
+#email-li{
+    list-style: none;
+
+}
+
+#icones{
+font-size: 14px;
+position: absolute;
+right: 40px;
+height: 7.3vh;
+}
+
+#icones-traco1{
+    font-size: 15px;
+    list-style: none;
+    position: absolute;
+    right: 330px;
+}
+
+#icones-traco2{
+    font-size: 15px;
+    list-style: none;
+    position: absolute;
+    right: 190px;
+}
+
+#icones-ul{
+    display: flex;
+width: 500px;
+
+}
+
+#icones-bandeira{
+    width:30px;
+position: absolute;
+right:278px;
+top: 8px;
+}
+
+#icones-English{
+    list-style: none;
+    position: absolute;
+    right: 220px;
+    
+}
+
+#icones-Login{
+    list-style: none;
+position: absolute;
+right: 110px;
+}
+
+#icones-Face{
+    list-style: none;
+position: absolute;
+right: 490px;
+}
+
+#icones-X{
+    list-style: none;
+    position: absolute;
+    right: 443px;
+}
+
+#icones-In{
+    list-style: none;
+    position: absolute;
+    right: 400px;
+}
+
+#icones-Pin{
+    list-style: none;
+    position: absolute;
+    right: 360px;
+
+}
+
+/* Fim da barra */
+
+
+/* Inicio do Ogani */
+
+#Base{
+height: 300vh;
+background-color: white;
+}
+
+#Lado_esquerdo{
+
+width: 100px;
+grid-area: LadoE;
+height: 100vh;
+}
+
+#Lado_direito{
+
+width: 100px;
+grid-area: LadoD;
+height: 100vh;
+}
+
+#Ogani{
+    
+    width: 167px;
+    height: 90px;
+grid-area: Ogani;
+}
+
+#Home{
+   
+    height: 60px;
+    width: 410px;
+grid-area: Home;
+}
+
+#Itens{
+    
+    width: 180px;
+    height: 50px;
+grid-area: Itens;
+}
+
+#Itens_ul{
+display: flex;
+position: relative;
+}
+
+#Coracao_li_itens{
+list-style: none;
+position: absolute;
+left: 10px;
+}
+
+#Sacola_li_itens{
+list-style: none;
+position: absolute;
+left: 45px;
+}
+
+#Preco_li_itens{
+list-style: none;
+position: absolute;
+left: 80px;
+}
+
+#Departamentos{
+    height: 550px;
+    width: 210px;
+grid-area: Departamentos;
+
+}
+
+#Departamentos_barra{
+    color: white;
+    padding: 4px;
+    text-align: center;
+    height:30px ;
+background-color: #28a745;
+}
+
+#Departamentos_ul{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+border: solid 2px #f5f5f5;
+}
+
+#Categoria{
+    border: solid 2px #f5f5f5;
+    width: 530px;
+    height: 50px;
+grid-area: Categoria;
+}
+
+#Categoria_barra{
+width: 50px;
+height: 55px;
+}
+
+#All_categories_div{
+width: 100px;
+position: relative;
+}
+
+#All_categories{
+list-style: none;
+width: 100px;
+position: absolute;
+left: 15px;
+}
+
+#All_categories_seta{
+list-style: none;
+position: absolute;
+left: 150px;
+}
+
+#All_categories_traco{
+    list-style: none;
+    position: absolute;
+    left: 190px;
+    
+}
+
+#All_categories_input{
+    list-style: none;
+    position: absolute;
+    left: 220px;
+    top: -6px;
+}
+
+#All_categories_butao{
+    list-style: none;
+    position: absolute;
+    left: 410px;
+top: -17px;
+
+}
+
+#input_categories{
+border: none;
+height: 30px;
+
+}
+
+#botao_categories{
+width: 115px;
+height: 53px;
+background-color: #28a745;
+color: white;
+border: none;
+}
+
+#Telefone{
+    
+    width: 230px;
+grid-area: Telefone;
+position: relative;
+height: 80px;
+}
+
+#Telefone_icone{
+width:50px;
+height: 50px;
+    border: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    border-radius: 100px;
+    top: 10px;
+    left: 10px;
+}
+
+#Icone_telefone{
+    position: absolute;
+left: 14px;
+top: 14px;
+}
+
+#Telefone_ul{
+position: relative;
+    
+}
+
+#Telefone_li_numero{
+list-style: none;
+position: absolute;
+right: 50px;
+}
+
+#Telefone_li_suporte{
+    list-style: none;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+
+#Imagem{
+    height: 450px;
+    
+    width: 830px;
+grid-area: Imagem;
+background-image: url(Imagens/banner.jpg.webp);
+}
+
+#Ul_imagem{
+    position: relative;
+    list-style: none;
+
+}
+
+#li_fruit{
+    position: absolute;
+top: 90px;
+color: #28a745;
+font-size: 20px;
+}
+#li_Vegetable{
+position: absolute;
+top: 110px;
+font-size: 20px;
+}
+
+#li_organic{
+    position: absolute;
+    top: 150px;
+font-size: 20px
+}
+
+#Free_pickup{
+position: absolute;
+top: 250px;
+}
+#Shop_now{
+position: absolute;
+top: 300px;
+
+}
+
+#botao_imagem{
+background-color: #28a745;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+#Home_ul{
+    display: flex;
+justify-content: center;
+}
+
+#Home_li{
+    list-style: none;
+    margin: 15px;
+}
+
+#Shop_li{
+    list-style: none;
+    margin: 15px;
+}
+
+#Pages_li{
+    list-style: none;
+    margin: 15px;
+}
+
+#Blog_li{
+    list-style: none;
+    margin: 15px;
+}
+
+#Contact_li{
+    margin: 15px;
+    list-style: none;
+}
+
+#Pages_drop{
+display: flex;
+flex-direction: column;
+display: none;
+}
+
+#Shop_li_drop{
+    list-style: none;
+    
+    
+}
+#Cart_li_drop{
+    list-style: none;
+    
+    
+}
+#Check_li_drop{
+    
+    list-style: none;
+    
+}
+#Blog_li_drop{
+    list-style: none;
+
+
+}
+
+#Alimentos{
+display: flex;
+justify-content: space-between;
+    
+    grid-area: alimento;
+    width: 1200px;
+}
+
+#imagem_seta_esquerda{
+position: relative;
+}
+
+#imagem_seta_direita{
+    
+    position: relative;
+
+}
+
+
+#seta_esquerda_alimentos{
+  background-color: white;  
+    position: absolute;
+top: 150px;
+width: 30px;
+height: 70px;
+
+}
+
+#seta_direita_alimentos{
+   background-color: white;
+    position: absolute;
+top: 150px;
+width: 30px;
+height: 70px;
+
+}
+
+
+/* Fim do Ogani*/
+
+
+
+/* Inicio dos produtos */
+
+
+#Base_produtos{
+height: 100vh;
+    
+}
+
+#Featured_Product_base{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+#Barrinha_verde{
+
+    height: 5px;
+    width: 80px;
+    background-color: #28a745;
+}
+
+#All_Produtos{
+
+    
+}
+
+#ul_Featured_Product{
+display: flex;
+    list-style: none;
+}
+
+#li_Featured_all{
+margin: 10px;
+}
+
+#li_Featured_laranja{
+    margin: 10px;
+}
+
+#li_Featured_carne{
+    margin: 10px;
+}
+
+#li_Featured_vegetais{
+
+    margin: 10px;
+}
+
+#li_Featured_fastfood{
+
+    margin: 10px;
+}
+
+#Lado_esquerdo_produtos{
+grid-area: LadoEP;
+    width: 100px;
+   
+}
+#Lado_direito_produtos{
+    grid-area: LadoDP;
+width: 100px;
+}
+#carne_produtos{
+    grid-area: carne;
+
+}
+#banana_produtos{
+    grid-area: banana;
+}
+#goiaba_produtos{
+    grid-area: goiaba;
+}
+#melancia_produtos{
+    grid-area: melancia;
+}
+#uva_produtos{
+    grid-area: uva;
+}
+#hamburguer_produtos{
+    grid-area: hamburguer;
+}
+#manga_produtos{
+    grid-area: manga;
+}
+#maca_produtos{
+    grid-area: maca;
+}
+
+
+/* Fim dos produtos */
+
+
+
+
+/* Bases */
+
+
+.Base_Ogani{
+    display: grid;
+    height: 155vh;
+    grid-template-areas: 
+    'LadoE Ogani Ogani Home Itens LadoD'
+    'LadoE Departamentos Categoria Categoria Telefone LadoD'
+    'LadoE Departamentos Imagem Imagem Imagem LadoD'
+    'LadoE alimento alimento alimento alimento LadoD'
+    ;
+}
+
+
+.Inicio_produtos{ 
+    height: 150vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'LadoEP carne banana goiaba melancia LadoDP'
+    'LadoEP carne hambuguer goiaba melancia LadoDP'
+    'LadoEP uva hambuguer manga maca LadoDP'
+    
+    ;
+    }
+
+.Departamentos_itens{
+    padding: 10px;
+width: 100px;
+    list-style: none;
+
+}
+
+
+.Quadrado{
+    width: 100px;
+height: 100px;
+}
